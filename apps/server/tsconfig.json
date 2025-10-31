@@ -1,17 +1,8 @@
 {
+  "extends": "../../packages/typescript-config/node.json",
   "compilerOptions": {
-    "target": "ES2020",
-    "lib": ["ES2020"],
-    "module": "ESNext",
-    "moduleResolution": "node",
-    "esModuleInterop": true,
-    "strict": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "resolveJsonModule": true,
-    "outDir": "./dist",
-    "rootDir": "./",
-    "types": ["node"]
+    "outDir": "dist",
+    "rootDir": "./"
   },
   "include": ["**/*.ts"],
   "exclude": ["node_modules", "dist"]
